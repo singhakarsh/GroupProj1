@@ -1,0 +1,79 @@
+body{
+background: url("https://github.com/frontendmentorio/space-tourism-website/blob/main/starter-code/assets/crew/background-crew-desktop.jpg?raw=true");
+background-size:cover;
+position:relative
+}
+
+.horizontal-list{
+list-style:none;
+padding-left:0px;
+text-align:center;
+background-color:#001a33;
+margin-left:600px;
+}
+
+.horizontal-list li{
+display:inline-block;
+margin:0px 8px 8px 0px;
+padding-top:15px;
+padding-bottom:15px;
+}
+
+.horizontal-list li a{
+color:white;
+text-decoration:none;
+}
+   
+.horizontal-list li a:hover{
+color:orange;
+border-bottom:1px solid blue;
+}
+
+.member-img{
+position: absolute;
+right: 100px;
+top: 80px;
+}
+
+div{
+margin: 10px 10px 10px 10px;
+}
+
+#heading{
+color: #a69d9d;
+text-transform: uppercase;
+font-family: monospace;
+font-size: 40px;
+position: absolute;
+left: 50px;
+}
+
+#designation{
+color: grey;
+font-family: Courier;
+letter-spacing: 3px;
+font-size: 35px;
+position: absolute;
+top: 250px;
+left: 80px;
+font-weight: lighter;
+}
+
+#name{
+color: lightgrey;
+font-family: Courier;
+position: absolute;
+top:300px;
+left: 80px;
+font-size: 60px;
+}
+
+.about{
+color: white;
+font-family: Courier New;
+font-size: 20px;
+position: absolute;
+top: 400px;
+right: 590px;
+left: 80px;
+}

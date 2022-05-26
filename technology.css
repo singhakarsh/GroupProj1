@@ -1,0 +1,25 @@
+#p{color:white;}
+
+#a{position:relative;padding-left:75px;padding-top:50px;}
+.dot{height:22px;width:24px;border:2px solid white;border-radius:50%;display:inline-block;display:flex;position:absolute;left:6px;top:270px;font-weight:800px;color:white;align-items:center;font-weight:800px;}
+.d{height:22px;width:24px;border:2px solid white;border-radius:50%;display:inline-block;display:flex;position:absolute;left:6px;top:308px;font-weight:800px;color:white;align-items:center;font-weight:800px;}
+.t{height:22px;width:24px;border:2px solid white;border-radius:50%;display:inline-block;display:flex;position:absolute;left:6px;top:346px;font-weight:800px;color:white;align-items:center;font-weight:800px;}
+.k{height:22px;width:24px;border:2px solid white;border-radius:50%;display:inline-block;display:flex;position:absolute;left:6px;top:386px;font-weight:800px;color:white;align-items:center;font-weight:800px;}
+.q a span:hover{background-color:white; border:1px solid blue;}
+.q a span:hover{background-color:white; border:1px solid blue;}
+h2{
+      border-radius: 20px 0px 0px 20px; 
+     box-shadow: 1px 1px 5px 2px #989882; 
+	 padding:10px;
+	 
+}
+
+#b img{position:absolute;left:700px;top:90px;}
+
+
+h3{
+      border-radius: 20px 0px 0px 20px; 
+     box-shadow: 1px 1px 5px 2px #989882; 
+	 padding:10px;
+	 
+}

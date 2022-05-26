@@ -1,0 +1,100 @@
+body{
+background: url("https://github.com/frontendmentorio/space-tourism-website/blob/main/starter-code/assets/crew/background-crew-desktop.jpg?raw=true");
+background-size:cover;
+position:relative;
+background-repeat: no-repeat;
+}
+
+.horizontal-list{
+list-style:none;
+padding-left:0px;
+text-align:center;
+background-color:#001a33;
+margin-left:600px;
+}
+
+.horizontal-list li{
+display:inline-block;
+margin:0px 8px 8px 0px;
+padding-top:15px;
+padding-bottom:15px;
+}
+
+.horizontal-list li a{
+color:white;
+text-decoration:none;
+}
+
+.horizontal-list li a:hover{
+color:orange;
+border-bottom:1px solid blue;
+}
+
+#heading{
+color: #a69d9d;
+text-transform: uppercase;
+font-family: monospace;
+font-size: 40px;
+position: absolute;
+left: 50px;
+top: 20px;
+}
+
+.flex{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.box{
+position: relative;
+overflow: hidden;
+width: 400px;
+height: 200px;
+border: 5px solid white;
+margin-left: 250px;
+margin-top:100px;
+}
+
+.member{
+height: 150px;
+width: 300px;
+position: relative;
+top: 20px;
+left: 35px;
+border-radius: 20px;
+}
+
+.about{
+color: white;
+background: rgba(0,0,0,0.89);
+width: 400px;
+height: 200px;
+padding: 50px 15px 0 15px;
+opacity: 0;
+position: absolute;
+transition: all 300ms ease-in-out;
+font-family: Courier;
+text-align: center;
+}
+
+.hover:hover{
+box-shadow: 0 0 20px #74ADC8;
+}
+
+.box:hover p{
+width: 390px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
+.box img:hover{
+transition: all 300ms ease-in-out;
+filter: blur(1px);
+transform: scale(1.03);
+}
+
+.about:hover{
+opacity: 100;
+}

@@ -1,0 +1,95 @@
+body{
+background: url("https://github.com/frontendmentorio/space-tourism-website/blob/main/starter-code/assets/destination/background-destination-desktop.jpg?raw=true");
+position: relative;
+background-size: cover;
+}
+
+.horizontal-list{
+list-style:none;
+padding-left:0px;
+text-align:center;
+background-color:#001a33;
+margin-left:600px;
+}
+
+.horizontal-list li{
+display:inline-block;
+margin:0px 8px 8px 0px;
+padding-top:15px;
+padding-bottom:15px;
+}
+
+.horizontal-list li a{
+color:white;
+text-decoration:none;
+}
+
+.horizontal-list li a:hover{
+color:orange;
+border-bottom:1px solid blue;
+}
+
+#heading{
+color: #a69d9d;
+text-transform: uppercase;
+font-family: monospace;
+font-size: 40px;
+position: absolute;
+left: 50px;
+top: 30px;
+}
+
+.main{
+background-color: lightgray;
+opacity: 0.5;
+position: relative;
+top: 200px;
+height: 350px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.box{
+height: 300px;
+width: 350px;
+border: 5px solid black;
+position: relative;
+top: 20px;
+}
+
+img{
+height: 200px;
+position: relative;
+top: 20px;
+left: 50px;
+animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation{
+from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.planet{
+position: relative;
+/*left: 120px;*/
+top: 20px;
+width: 350px;
+font-size: 25px;
+font-family: monospace;
+font-weight: bolder;
+background-color: black;
+color: white;
+border-radius: 15px;
+text-align: center;
+}
+
+.box:hover{
+box-shadow: 0 0 20px #74ADC8, 0 0 20px #74ADC8, 0 0 20px #74ADC8;
+transform: scale(1.1);
+}

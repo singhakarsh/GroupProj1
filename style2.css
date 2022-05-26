@@ -1,0 +1,56 @@
+img{width:960px;}
+#a{color:white;font-size:20px;margin-top:200px;margin-left:100px;letter-spacing:0.3rem;}
+#b{font-size:80px;color:white;margin-left:100px;letter-spacing:0.3rem;}
+#c{color:white;font-size:20px;margin-left:100px;}
+.horizontal-list{list-style:none;padding-left:0px;text-align:center;background-color:#001a33;margin-left:600px;}
+.horizontal-list li{display:inline-block;margin:0px 8px 8px 0px;padding-top:15px;padding-bottom:15px;}
+.horizontal-list li a{color:white;text-decoration:none;}     /* transition: color 0.5s,border-bottom 70s; */
+.horizontal-list li a:hover{color:orange; border-bottom:1px solid blue;}
+#d{background-image:url('file:///D:/Downloads/earth/sky.jpg');width:960px;}
+
+body{background-image:url('https://www.teahub.io/photos/full/49-492497_earth-wallpapers-for-mobile.jpg'),url('https://data.1freewallpapers.com/download/starry-sky-stars-black-glitter-1280x800.jpg');background-position:right,left;background-repeat:no-repeat,no-repeat;background-size:800px,100%;position:relative;}  
+    /*overflow-y:scroll;*/
+horizontal-list{position:relative;animation-name:Anjali;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate;}
+@keyframes Anjali {
+from{
+width:200px;
+}
+to{
+width:800px;
+}
+}
+
+#q{color:black;position:absolute;left:0px;top:0px;width:250px;height:250px;background-color:white;padding-left:800px;border-radius:50%;}
+.dot{height:150px;width:150px;background-color:white;border-radius:50%;display:inline-block;display:flex;align-items:center;font-size:-1px;position:absolute;left:900px;top:450px;font-weight:800px;border:2px solid black;}
+#b{animation-name:Kamakshi;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate;}
+@keyframes Kamakshi {
+from{
+text-shadow: 0 0 20px #289aab;
+}
+to{
+text-shadow: 0 0 30px #289aab,
+           0 0 10px #289aab;
+}
+}
+.dot{animation-name:Anjli;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate;}
+@keyframes Anjli {
+from{
+box-shadow: 0 0 20px #FF0000;
+}
+to{
+box-shadow: 0 0 30px #FF0000,
+           0 0 10px #FF0000;
+}
+}
+
+
+r {animation-name:Anjli;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate;}
+@keyframes Anjli {
+from{
+box-shadow: 0 0 20px #FF0000;
+}
+to{
+box-shadow: 0 0 30px #FF0000,
+           0 0 10px #FF0000;
+}
+}
